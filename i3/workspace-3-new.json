@@ -1,0 +1,25 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 452,
+       "width": 774,
+       "x": 0,
+       "y": 0
+    },
+    "name": "ryan@birdcoop:~",
+    "percent": 1,
+    "swallows": [
+       {
+       // "class": "^XTermUtil$",
+        "class": "^Xfce4\\-terminal$",
+        "title": "^termutil$",
+       // "title": "^ryan\\@birdcoop\\:\\~$",
+        "transient_for": "^$"
+       }
+    ],
+    "type": "con"
+}
+

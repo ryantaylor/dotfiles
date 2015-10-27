@@ -1,0 +1,56 @@
+// vim:ts=4:sw=4:et
+{
+    "layout": "splith",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 452,
+               "width": 774,
+               "x": 0,
+               "y": 0
+            },
+            "name": "ryan@birdcoop:~/code/vault",
+            "percent": 0.5,
+            "swallows": [
+               {
+                //"class": "^XTermVault$",
+                "class": "^Xfce4\\-terminal$",
+                "title": "^termvault$",
+               // "title": "^ryan\\@birdcoop\\:\\~\\/code\\/vault$",
+                "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        },
+
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 452,
+               "width": 774,
+               "x": 0,
+               "y": 0
+            },
+            "name": "ryan@birdcoop:~/code/flank",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^XTermFlank$",
+                "class": "^Xfce4\\-terminal$",
+                "title": "^termflank$",
+               // "title": "^ryan\\@birdcoop\\:\\~\\/code\\/flank$",
+                "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

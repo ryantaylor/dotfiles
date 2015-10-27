@@ -1,0 +1,24 @@
+[Configuration]
+ColorCursor=#c0c5ce
+ColorForeground=#c0c5ce
+ColorBackground=#2b303b
+ColorPalette=#2b303b;#bf616a;#a3be8c;#ebcb8b;#8fa1b3;#b48ead;#96b5b4;#c0c5ce;#65737e;#bf616a;#a3be8c;#ebcb8b;#8fa1b3;#b48ead;#96b5b4;#eff1f5
+MiscAlwaysShowTabs=FALSE
+MiscBell=FALSE
+MiscBordersDefault=TRUE
+MiscCursorBlinks=FALSE
+MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
+MiscDefaultGeometry=80x24
+MiscInheritGeometry=FALSE
+MiscMenubarDefault=FALSE
+MiscMouseAutohide=FALSE
+MiscToolbarDefault=FALSE
+MiscConfirmClose=TRUE
+MiscCycleTabs=TRUE
+MiscTabCloseButtons=TRUE
+MiscTabCloseMiddleClick=TRUE
+MiscTabPosition=GTK_POS_TOP
+MiscHighlightUrls=TRUE
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
+FontName=Fira Mono Medium 10
+

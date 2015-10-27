@@ -1,0 +1,121 @@
+// vim:ts=4:sw=4:et
+{
+    "layout": "splith",
+    "percent": 0.814285714285714,
+    "type": "con",
+    "nodes": [
+        {
+            // splitv split container with 2 children
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splitv",
+            "percent": 0.814285714285714,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 3,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 1060,
+                       "width": 945,
+                       "x": 10,
+                       "y": 10
+                    },
+                    "name": "Netflix",
+                    "percent": 0.85,
+                    "swallows": [
+                       {
+                        "class": "^google\\-chrome$"
+                       // "instance": "^netflix\\.com$",
+                       // "title": "^Netflix$",
+                       // "transient_for": "^$",
+                       // "window_role": "^pop\\-up$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 3,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 452,
+                       "width": 774,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "ryan@birdcoop:~",
+                    "percent": 0.15,
+                    "swallows": [
+                       {
+                       // "class": "^XTermConky$",
+                        "class": "^Xfce4\\-terminal$",
+                        "title": "^termconky$",
+                       // "title": "^ryan\\@birdcoop\\:\\~$",
+                        "transient_for": "^$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            // splitv split container with 2 children
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splitv",
+            "percent": 0.185714285714286,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 3,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 452,
+                       "width": 774,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "ryan@birdcoop:~",
+                    "percent": 0.6,
+                    "swallows": [
+                       {
+                        "class": "^conky$"
+                        //"class": "^Xfce4\\-terminal$",
+                        //"title": "^termwk4$",
+                        //"title": "^ryan\\@birdcoop\\:\\~$",
+                        //"transient_for": "^$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 3,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 232,
+                       "width": 352,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "i3 - File Manager",
+                    "percent": 0.4,
+                    "swallows": [
+                       {
+                        "class": "^Thunar$",
+                        "instance": "^thunar$"
+                       // "title": "^i3\\ \\-\\ File\\ Manager$",
+                       // "transient_for": "^$",
+                       // "window_role": "^Thunar\\-1445565411\\-2769763965$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+

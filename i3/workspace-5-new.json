@@ -1,0 +1,24 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 994,
+       "width": 1878,
+       "x": 19,
+       "y": 65
+    },
+    "name": "Sublime Text",
+    "percent": 1,
+    "swallows": [
+       {
+        "class": "^Subl3$",
+        "instance": "^subl3$",
+       // "title": "^\\~\\/\\.config\\/i3\\/config\\ \\(code\\)\\ \\-\\ Sublime\\ Text\\ \\(UNREGISTERED\\)$",
+        "transient_for": "^$"
+       }
+    ],
+    "type": "con"
+}
+

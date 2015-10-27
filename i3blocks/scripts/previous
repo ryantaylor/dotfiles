@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ "$(pidof spotify)" ] 
+then
+    case $BLOCK_BUTTON in
+      # launch pavucontrol when clicked
+      1) playerctl previous ;;
+    esac
+
+    echo ""
+fi
